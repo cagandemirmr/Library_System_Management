@@ -1,0 +1,31 @@
+ORG
+Temiz ve güzel bir kod yazmışsın.
+
+Menü kısmı döngü de olmadığından habire program kapanmakta. Gözünden kaçmış sanırım.
+
+Dosyaları açarken dizin eklediğinden çalıştırırken bazı sorunlar yaşadım. Direkt books.txt olarak yazman başkalarının da çalıştırmasını sağlar projeyi.
+
+Dosyaya yazdırma kısmını tam olarak yapmadığından eğer sisteme kitapları ekleyip bir şey silmeden çıkarsam dosyaya yazdırmıyor eklediğim kitapları.
+
+Ayrıca bazı dosyalara nasıl açılcağını belirtmeden geçmişsin. Direkt read modda açıyor ama yine de belirtmen daha iyi olur her zaman. 
+
+Try except mantığı eklenerek bazı olası sorunların önüne geçebilirsin.
+
+Mesela sayısal değer almaya çalışırsın release date ve page number da vermediğinde yanlış tipte veri girişi var sayısal değer giriniz gibi. Kaynak: Python Try Except - GeeksforGeeks 
+
+-----------------------------------
+ENG
+
+You have written a clean and nice code.
+
+The menu part is not in a loop, so the program keeps closing repeatedly. I think you might have overlooked it.
+
+I experienced some issues when opening files because you added the directory while opening, which caused problems when running. Writing "books.txt" directly would allow others to run the project without issues.
+
+Since the writing to the file is not done properly, if I add books to the system and exit without deleting anything, it doesn't write the added books to the file.
+
+Additionally, you have skipped specifying how some files should be opened. It directly opens in read mode, but it would be better to mention it explicitly every time.
+
+You can prevent some possible issues by adding a try-except logic.
+
+For instance, when trying to get numerical values for release date and page number and not receiving them, there is incorrect data entry; you can handle it with a try-except block. Reference: Python Try Except.
